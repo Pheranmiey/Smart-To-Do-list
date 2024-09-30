@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5c6bc0; /* Change header color */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Improve shadow effect */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 22px); /* Adjust width to account for padding */
+    border: 1px solid #ccc; /* Add border to input and button */
+    border-radius: 4px; /* Round corners */
+}
+
+button {
+    background-color: #5c6bc0; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+button:hover {
+    background-color: #3949ab; /* Darken button on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    position: relative; /* Position for button placement */
+}
